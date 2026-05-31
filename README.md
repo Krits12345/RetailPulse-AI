@@ -1,5 +1,28 @@
 # Store Intelligence System — Apex Retail
 
+
+Live Demo
+
+Frontend Dashboard:
+https://retail-pulse-ai-zeta.vercel.app
+
+Backend API:
+https://retailpulse-ai-0ph9.onrender.com/docs
+
+## Problem Statement
+
+Built an AI-powered Store Intelligence System that transforms CCTV footage into actionable retail analytics. The platform detects and tracks customers, generates structured events, calculates real-time business metrics, identifies anomalies, and visualizes insights through a live dashboard.
+
+## Key Features
+
+- Real-time visitor tracking and session analytics
+- Conversion funnel analysis
+- Zone-wise heatmap generation
+- Queue monitoring and abandonment detection
+- Anomaly detection for conversion drops and queue spikes
+- REST APIs with interactive Swagger documentation
+- Live dashboard with auto-refreshing analytics
+- End-to-end deployment on Render and Vercel
 End-to-end pipeline: CCTV footage → structured events → real-time analytics API → live dashboard.
 
 **Stack:** Python · FastAPI · SQLite · React · Docker
