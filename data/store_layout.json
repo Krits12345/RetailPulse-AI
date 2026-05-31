@@ -1,0 +1,92 @@
+{
+  "stores": [
+    {
+      "store_id": "STORE_BLR_002",
+      "name": "Apex Retail - Bangalore MG Road",
+      "city": "Bangalore",
+      "open_hours": { "open": "10:00", "close": "21:00" },
+      "cameras": [
+        { "camera_id": "CAM_ENTRY_01", "type": "entry", "description": "Main entrance threshold" },
+        { "camera_id": "CAM_FLOOR_01", "type": "floor", "description": "Main floor zone coverage" },
+        { "camera_id": "CAM_BILLING_01", "type": "billing", "description": "Billing counter area" }
+      ],
+      "zones": [
+        {
+          "zone_id": "ENTRY",
+          "sku_zone": null,
+          "camera_ids": ["CAM_ENTRY_01"],
+          "polygon": [[0, 0], [1280, 0], [1280, 200], [0, 200]],
+          "entry_line_y": 100
+        },
+        {
+          "zone_id": "SKINCARE",
+          "sku_zone": "MOISTURISER",
+          "camera_ids": ["CAM_FLOOR_01"],
+          "polygon": [[0, 0], [640, 0], [640, 540], [0, 540]]
+        },
+        {
+          "zone_id": "MAKEUP",
+          "sku_zone": "FOUNDATION",
+          "camera_ids": ["CAM_FLOOR_01"],
+          "polygon": [[640, 0], [1280, 0], [1280, 540], [640, 540]]
+        },
+        {
+          "zone_id": "HAIRCARE",
+          "sku_zone": "SHAMPOO",
+          "camera_ids": ["CAM_FLOOR_01"],
+          "polygon": [[0, 540], [640, 540], [640, 1080], [0, 1080]]
+        },
+        {
+          "zone_id": "FRAGRANCES",
+          "sku_zone": "PERFUME",
+          "camera_ids": ["CAM_FLOOR_01"],
+          "polygon": [[640, 540], [1280, 540], [1280, 1080], [640, 1080]]
+        },
+        {
+          "zone_id": "BILLING",
+          "sku_zone": null,
+          "camera_ids": ["CAM_BILLING_01"],
+          "polygon": [[0, 0], [1280, 0], [1280, 1080], [0, 1080]]
+        }
+      ]
+    },
+    {
+      "store_id": "STORE_MUM_005",
+      "name": "Apex Retail - Mumbai Andheri",
+      "city": "Mumbai",
+      "open_hours": { "open": "10:00", "close": "22:00" },
+      "cameras": [
+        { "camera_id": "CAM_ENTRY_01", "type": "entry", "description": "Main entrance" },
+        { "camera_id": "CAM_FLOOR_01", "type": "floor", "description": "Main floor" },
+        { "camera_id": "CAM_BILLING_01", "type": "billing", "description": "Billing area" }
+      ],
+      "zones": [
+        {
+          "zone_id": "ENTRY",
+          "sku_zone": null,
+          "camera_ids": ["CAM_ENTRY_01"],
+          "polygon": [[0, 0], [1280, 0], [1280, 200], [0, 200]],
+          "entry_line_y": 100
+        },
+        {
+          "zone_id": "SKINCARE",
+          "sku_zone": "MOISTURISER",
+          "camera_ids": ["CAM_FLOOR_01"],
+          "polygon": [[0, 0], [640, 0], [640, 540], [0, 540]]
+        },
+        {
+          "zone_id": "WELLNESS",
+          "sku_zone": "SUPPLEMENTS",
+          "camera_ids": ["CAM_FLOOR_01"],
+          "polygon": [[640, 0], [1280, 0], [1280, 540], [640, 540]]
+        },
+        {
+          "zone_id": "BILLING",
+          "sku_zone": null,
+          "camera_ids": ["CAM_BILLING_01"],
+          "polygon": [[0, 0], [1280, 0], [1280, 1080], [0, 1080]]
+        }
+      ]
+    }
+  ]
+}

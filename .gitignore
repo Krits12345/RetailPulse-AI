@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/store_intelligence.db
+data/events/
+data/clips/
+.coverage
+.pytest_cache/
+node_modules/
+dashboard/dist/
+*.egg-info/
